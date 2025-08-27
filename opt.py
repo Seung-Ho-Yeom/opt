@@ -122,9 +122,9 @@ def _to_native(o):
 
 
 # ------------------ 모델 경로 (자동 로드) ------------------
-MODEL_DIR = os.path.join(os.path.dirname(__file__), "models")
-SD_JSON_PATH = os.path.join(MODEL_DIR, "gpr_rbf_Outlet_N2_SD.json")
-DP_JSON_PATH = os.path.join(MODEL_DIR, "gpr_rbf_Outlet_dp.json")
+#MODEL_DIR = os.path.join(os.path.dirname(__file__), "models")
+SD_JSON_PATH = os.path.join("gpr_rbf_Outlet_N2_SD.json")
+DP_JSON_PATH = os.path.join("gpr_rbf_Outlet_dp.json")
 
 
 # ------------------ Streamlit UI ------------------
